@@ -6,7 +6,7 @@ import {toast} from 'react-toastify'
 import {assets} from '../../assets/assets'
 const Orders = () => {
 
-   const url = 'http://localhost:4000'
+   const url = 'https://food-app-1-4mwu.onrender.com'
   const [orders, setOrders] = useState([]);
 
   const fetchOrders = async ()=>{
