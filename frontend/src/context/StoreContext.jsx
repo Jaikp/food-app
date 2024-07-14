@@ -1,8 +1,8 @@
 import { createContext, useState } from "react";
-import { food_list } from "../assets/assets";
 import { useEffect } from "react";
+import axios from 'axios';
 export const StoreContext = createContext(null)
-import axios from 'axios'
+
 const StoreContextProvider = (props) => {
 
 
